@@ -36,7 +36,7 @@ const Biography = () => {
               <a href="https://www.linkedin.com/company/rcsems?originalSubdomain=in" className="text-primary hover:underline">RCS EMS PVT LTD</a>.
             </p>
             <p className="text-card-foreground">
-              in Ahmdebaad. I also have a Bachlor of Technology in Computer Science from
+              In Ahmdebaad. I also have a Bachlor of Technology in Computer Science from
               Himachal Pradesh Technical University.
             </p>
             <p className="text-card-foreground mb-2">

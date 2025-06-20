@@ -51,23 +51,20 @@ const ChatBot = () => {
   const getBotResponse = (userInput: string): string => {
     const input = userInput.toLowerCase();
     
-    if (input.includes('price') || input.includes('cost')) {
-      return 'Our prints start at $45. Fashion illustrations are $65, and sketch sets are $85. Would you like more details about any specific piece?';
+    if (input.includes('Hi') || input.includes('hello')) {
+      return 'Hi There, Welcome to the ChatBox How can i help You!!!!!';
     }
-    if (input.includes('commission') || input.includes('custom')) {
-      return 'Yes, I do custom illustrations! Please contact me through the contact page with your requirements and I\'ll get back to you with a quote.';
+   if (input.includes('Enquiry')) {
+      return 'We provide the facility to make the website. For further details please contact Nishant';
     }
-    if (input.includes('shipping')) {
-      return 'We ship worldwide! Shipping costs vary by location. You\'ll see the exact shipping cost at checkout.';
-    }
-    if (input.includes('about') || input.includes('helena')) {
-      return 'Helena is a talented illustrator and fashion designer based in Berlin. She specializes in fashion illustrations and has worked with various fashion brands.';
+    if (input.includes('about') || input.includes('Nishant')) {
+      return 'Nishant is a talented software Enginner. Please mail him or contact on the link in the contact section.';
     }
     if (input.includes('contact')) {
-      return 'You can reach Helena at helena@krugerillustration.com or through the contact form on the website. She typically responds within 24 hours.';
+      return 'You can reach Helena at nishant2465@gmail.com or through the contact form on the website. He typically responds within 24 hours.';
     }
     
-    return 'Thank you for your message! For specific inquiries about commissions or purchases, please use the contact form or email helena@krugerillustration.com directly.';
+    return 'Thank you for your message! For connact or any other Query, please use the contact form or email nishant2465@gmail.com directly.';
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

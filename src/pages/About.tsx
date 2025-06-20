@@ -8,12 +8,12 @@ const About = () => {
       <Header />
       <main className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-semibold text-foreground mb-8">About</h1>
-        <div className="grid md:grid-cols-2 gap-12">
+        <div>
           <div className="space-y-6">
-            <section id="about" className="py-16 px-6 bg-background text-foreground">
+            <article id="about" className="bg-card border rounded-lg p-6">
               <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
-                 <p className="text-lg leading-relaxed mb-4">
+                 <p className="text-card-foreground leading-relaxed mb-4">
                     Hi, I’m Nishant — a curious explorer, creative thinker, and lifelong learner.
                     My journey bridges the world of technology. With a background in
                     <strong>Computer Science (B.Tech from HPTU)</strong> and training in
@@ -36,10 +36,10 @@ const About = () => {
                       create something inspiring together!
                   </p>
               </div>
-            </section>
+            </article>
             <h2><a href="https://nishantinfo.netlify.app/" className="text-primary hover:underline">My Portfolio →</a></h2>
           </div>
-          <div className="bg-muted aspect-[4/5] rounded-lg"></div>
+          
         </div>
       </main>
       <Footer />
