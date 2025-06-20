@@ -61,7 +61,7 @@ const ChatBot = () => {
       return 'Nishant is a talented software Enginner. Please mail him or contact on the link in the contact section.';
     }
     if (input.includes('contact')) {
-      return 'You can reach Helena at nishant2465@gmail.com or through the contact form on the website. He typically responds within 24 hours.';
+      return 'You can reach Nishant at nishant2465@gmail.com or through the contact form on the website. He typically responds within 24 hours.';
     }
     
     return 'Thank you for your message! For connact or any other Query, please use the contact form or email nishant2465@gmail.com directly.';
